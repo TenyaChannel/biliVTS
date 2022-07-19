@@ -1,0 +1,27 @@
+{
+	"danmaku_id": "id_of_cangyang",
+	"authenticationToken": "access key to cangyang",
+	"model_name": "cangyang",
+	"port": 8001,
+	"//comments": "禁用参数rotation,FacePositionX",
+	"banned_params": ["rotation", "FacePositionX"],
+	"//comments": "param1的别名是param2",
+	"alternative": {
+		"param1": "param2"
+	},
+	"//comments": "两件衣服不可以同时脱掉！",
+	"check_before_apply": { 
+		"boom1": {
+			"set_to": true,
+			"on_condition": {
+				"boom2": false
+			}
+		},
+		"boom2": {
+			"set_to": true,
+			"on_condition": {
+				"boom1": false
+			}
+		}
+	}
+}

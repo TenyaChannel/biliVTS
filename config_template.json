@@ -1,0 +1,14 @@
+{
+	"danmaku_id": "danmaku_id_to_this_model",
+	"authenticationToken": "your_auth_key_got_from_vts",
+	"model_name": "your_model_name",
+	"port": your_vts_api_port,
+	"//comments": "设置禁用参数",
+	"banned_params": [],
+	"//comments": "设置参数别名",
+	"alternative": {
+		"param1": "param2"
+	},
+	"//comments": "设置参数检查条件",
+	"check_before_apply": {}
+}
