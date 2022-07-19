@@ -3,6 +3,7 @@
 	"authenticationToken": "your_auth_key_got_from_vts",
 	"model_name": "your_model_name",
 	"port": your_vts_api_port,
+	"room_id": your_room_id,
 	"//comments": "设置禁用参数",
 	"banned_params": [],
 	"//comments": "设置参数别名",

@@ -13,7 +13,7 @@ import copy
 
 url = 'ws://broadcastlv.chat.bilibili.com:2244/sub'
 danmaku_id = ""
-room_id = 23921483
+room_id = 0
 # room_id = 7734200
 port = 8001
 config = {}
@@ -734,6 +734,7 @@ if __name__ == '__main__':
     port = config['port']
     danmaku_id = config['danmaku_id']
     authenticationToken = config['authenticationToken']
+    room_id = config['room_id']
     main_2()
     # asyncio.run(run_main())
     exit(0)

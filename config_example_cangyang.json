@@ -3,6 +3,7 @@
 	"authenticationToken": "access key to cangyang",
 	"model_name": "cangyang",
 	"port": 8001,
+	"room_id": 23921483,
 	"//comments": "禁用参数rotation,FacePositionX",
 	"banned_params": ["rotation", "FacePositionX"],
 	"//comments": "param1的别名是param2",
