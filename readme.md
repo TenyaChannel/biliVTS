@@ -34,6 +34,6 @@ danmaku_id param_name target_value
 
 ![demo1](./assets/demo1.gif)
 
-![demo1](./assets/demo2.gif)
+![demo1](./assets/demo4.gif)
 
 ![demo1](./assets/demo3.gif)
